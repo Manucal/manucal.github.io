@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   background-color: #111;
   color: #eee;
   
@@ -36,23 +36,26 @@ main {
 }
 
 .contenedor {
-  width: 90%;
+  width: 100%;
+  min-width: 100px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 10px;
+  line-height:20px;
 }
 
 h1, h2, h3 {
-  margin: 0;
   text-align: center;
 }
 
 h1 {
+  margin: 15px;
   font-size: 36px;
   margin-bottom: 20px;
 }
 
 h2 {
+  margin: 15px;
   font-size: 28px;
   margin-bottom: 30px;
 }
@@ -117,7 +120,7 @@ section#sobre-mi .perfil-texto {
 /* Estilos de la sección "Trabajos" */
 section#trabajos {
   background-color: #F7F9FC;
-  padding: 50px 0;
+  padding: 15px 0;
   
 }
 
@@ -125,7 +128,8 @@ section#trabajos {
 section#trabajos .trabajo {
   background-color: #e0e1ec;
   margin-bottom: 25px;
-  padding: 60px;
+  padding-top: 15PX;
+  padding-bottom: 60px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   
 }
@@ -204,7 +208,7 @@ section#contacto .contacto-enlaces {
 
 section#contacto .contacto-enlaces a {
   display: inline-block;
-  margin: 15px 15px 15px 15px;
+  margin: 10px;
   font-size: 24px;
   color: #333;
   text-decoration: none;
@@ -218,9 +222,10 @@ section#contacto .contacto-enlaces a:hover {
 
 /* Estilos del footer */
 footer {
+  width:auto;
   background-color: #333;
   color: #eee;
-  padding: 2px 0;
+  padding: 2px;
   text-align: center;
 }
 
